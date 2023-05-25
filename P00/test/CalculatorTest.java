@@ -42,8 +42,8 @@ public class CalculatorTest {
 	}
 	@Test
 	public final void testMultiply() {
-		int a = 5;
-		int b = 4;
+		int a = 10;
+		int b = 2;
 		
 		Calculator cal= new Calculator();
 		int actual = cal.Multiply(a, b);
